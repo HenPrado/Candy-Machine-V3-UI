@@ -9,7 +9,7 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
+    "BoTegn3mBw4N7za92gh4a1Vw8TsfsFqN3DHpnVgspkLT"
 );
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
@@ -19,10 +19,13 @@ export const defaultGuardGroup =
 // "DAA8yRLu7acVs3kxaTyCjoEjNWGinLaCKVhDY29ASNua"
 
 export const whitelistedWallets = [
-  "53VVFtLzzi3nL2p1QF591PAB8rbcbsirYepwUphtHU9Q",
-  "85gHs1pKkZcNCDEbcfxqhfFNPWCsNFqPTMMbTQARspWy",
-  "FXoth7ba7LALmJGFaidCcMnhsxEagBDBDKCmkpr2QuDr",
-  "232Z5QNvQ4wRyraGWFpC5i3HEbqozEWgBCV95eWASaG1",
-  "D8ivzpXkG66VknRdVjEF1HjqS3T1tzcqraVR6FYaeLsV",
-  "sTAKERL4U8fbn2nUte6rPVdcrz2z3fEh1adQEDrGULr",
+  "Ca4nThDNqMu97hQB8d8BqyWpgiXZ4cc8Ce5VZpBJyiap",
+  "CadTASoC6RhoVdeAdtwPosxP98ckA5wfqeAVzXHAWv6o",
+  "CaKgtPNk9dovmAoRpLdMAzMEVnWrbmCSgtPCJsnNWSR1",
+  "CanXVuPs1sADQUvww5AH6MwLUX2aj56jqZCn6mLVG5mt",
+  "CaoMfrdfCW1mEyceAni89bBhtrMUzSKBv8UyWbuwNrc2",
+  "CaRKVg46wjWauuoNTPqsuwU867gUnHoPFcw7KoX8uTYt",
+  "CaTnRpFfieRE8yRJNvdZaNQh33KhwFRjjV4WCFP6E73a",
+  "CayisaNwAcMmBHvoUznHo92rzdxMUDj7BdYFyU32KXgg",
+  "CazxpNFm3bmZe5pyeqh9RAWJeYSN9qEKzN4shSLZZHQd",
 ];
