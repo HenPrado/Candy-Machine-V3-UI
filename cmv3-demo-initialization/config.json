@@ -1,14 +1,91 @@
 {
-  "number": 300,
-  "symbol": "F00K",
+  "number": 10,
+  "symbol": "NB",
   "sellerFeeBasisPoints": 500,
   "isMutable": true,
   "isSequential": false,
   "creators": [
     {
-      "address": "5PCFZP3pNXxYwWrr84qxm9UMpbmVq7Mi8PM5QKBeQxKQ",
+      "address": "CrtcvuV9uDBAx6Luf9kENPjDhbGnffSNG8JTR13dw7UF",
       "share": 100
     }
   ],
-  "uploadMethod": "bundlr"
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+    },
+    "groups": [
+      {
+        "label": "PV",
+        "guards": {
+          "allowList": {
+            "merkleRoot": "6849c74128dafb036d7eeb9c69f322ae71bcfa44206a8c3bec6dc2bb596e4d0d"
+          },
+          "solPayment": {
+            "value": 0.1,
+            "destination": "CrtcvuV9uDBAx6Luf9kENPjDhbGnffSNG8JTR13dw7UF"
+          },
+          "startDate": {
+            "date": "2023-03-13 03:00:00 +0000"
+          },
+          "endDate": {
+            "date": "2023-03-13 03:30:00 +0000"
+          }
+        }
+      },
+      {
+        "label": "WL1",
+        "guards": {
+          "allowList": {
+            "merkleRoot": "0a848c24dc2e7b436a9acf4e0437f4c057d2920a3b2c0e832c9cf92c8426f74a"
+          },
+          "solPayment": {
+            "value": 0.2,
+            "destination": "CrtcvuV9uDBAx6Luf9kENPjDhbGnffSNG8JTR13dw7UF"
+          },
+          "startDate": {
+            "date": "2023-03-13 03:30:00 +0000"
+          },
+          "endDate": {
+            "date": "2023-03-13 04:00:00 +0000"
+          }
+        }
+      },
+      {
+        "label": "WL2",
+        "guards": {
+          "allowList": {
+            "merkleRoot": "48b9b1c3f358264cdf4ea05ab25791955862fd78fe1322f120a45d179c20d1f7"
+          },
+          "solPayment": {
+            "value": 0.3,
+            "destination": "CrtcvuV9uDBAx6Luf9kENPjDhbGnffSNG8JTR13dw7UF"
+          },
+          "startDate": {
+            "date": "2023-03-13 04:00:00 +0000"
+          },
+          "endDate": {
+            "date": "2023-03-13 04:30:00 +0000"
+          }
+        }
+      },
+      {
+        "label": "Public",
+        "guards": {
+          "solPayment": {
+            "value": 0.4,
+            "destination": "CrtcvuV9uDBAx6Luf9kENPjDhbGnffSNG8JTR13dw7UF"
+          },
+          "startDate": {
+            "date": "2023-03-13 04:30:00 +0000"
+          }
+        }
+      }
+    ]
+  }
 }
